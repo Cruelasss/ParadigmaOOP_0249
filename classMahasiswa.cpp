@@ -17,4 +17,7 @@ int main() {
     mhs.nama = "Budi";
     mhs.nilai = 85.5;
 
- X
+    mhs.printData();
+
+    return 0;
+}
