@@ -18,8 +18,8 @@ class Mahasiswa {
 
 int main() {
     Mahasiswa mhs;
-    mhs.NIM = 12345;
-    mhs.nama = "Budi";
+    mhs.NIM = 20230140249;
+    mhs.nama = "regar";
     mhs.nilai = 85.5;
 
     mhs.printData();
