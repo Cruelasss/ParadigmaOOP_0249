@@ -4,7 +4,7 @@ using namespace std;
 
 class Mahasiswa {
 
-    public : 
+    public : //akses modifier public agar dapat diakses dari luar kelas
         int NIM;  
         string nama;
         float nilai;
@@ -17,7 +17,7 @@ class Mahasiswa {
 };
 
 int main() {
-    Mahasiswa mhs;
+    Mahasiswa mhs; //membuat objek mhs dari kelas Mahasiswa
     mhs.NIM = 20230140249;
     mhs.nama = "regar";
     mhs.nilai = 85.5;
