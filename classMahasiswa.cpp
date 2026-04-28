@@ -10,3 +10,11 @@ class Mahasiswa {
             cout << "Nilai: " << nilai << endl;
         }
 };
+
+int main() {
+    Mahasiswa mhs;
+    mhs.NIM = 12345;
+    mhs.nama = "Budi";
+    mhs.nilai = 85.5;
+
+ X
