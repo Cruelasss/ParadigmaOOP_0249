@@ -8,4 +8,7 @@ private:
     string kategori;
     string tanggalProduksi;
 
-}
+public:
+    // Constructor
+    Barang(string n, int j, string k, string t) {
+      
