@@ -17,4 +17,6 @@ public:
         tanggalProduksi = t;
     }
 
-   
+    // Method untuk menampilkan spesifikasi
+    void tampilkanSpesifikasi() {
+       
