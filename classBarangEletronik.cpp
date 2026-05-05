@@ -11,4 +11,10 @@ private:
 public:
     // Constructor
     Barang(string n, int j, string k, string t) {
-      
+        nama = n;
+        jumlah = j;
+        kategori = k;
+        tanggalProduksi = t;
+    }
+
+   
