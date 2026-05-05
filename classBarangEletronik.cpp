@@ -26,3 +26,17 @@ public:
         cout << "-------------------------------" << endl;
     }
 };
+
+int main() {
+    // Object elektronik
+    Barang elektronik("Laptop", 10, "Elektronik", "2024-01-15");
+
+    // Object nonElektronik
+    Barang nonElektronik("Kursi", 20, "Non Elektronik", "2023-11-10");
+
+    // Menampilkan data
+    elektronik.tampilkanSpesifikasi();
+    nonElektronik.tampilkanSpesifikasi();
+
+    return 0;
+}
