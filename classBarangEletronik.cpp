@@ -19,4 +19,10 @@ public:
 
     // Method untuk menampilkan spesifikasi
     void tampilkanSpesifikasi() {
-       
+        cout << "Nama Barang       : " << nama << endl;
+        cout << "Jumlah            : " << jumlah << endl;
+        cout << "Kategori          : " << kategori << endl;
+        cout << "Tanggal Produksi  : " << tanggalProduksi << endl;
+        cout << "-------------------------------" << endl;
+    }
+};
